@@ -1,0 +1,230 @@
+  @charset "utf-8";
+#mobile-nav {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  #header, #wrapper, #footer {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  #wrapper {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-top: 43px;
+  }
+  #header {
+    text-align: center;
+    text-align: right;
+    background-image: none;
+    background-color: rgba(95, 96, 98, 0.3);
+  }
+  #header img {
+    padding: 0.5em;
+    height: 25px;
+  }
+  #filmstrip {
+    width: 100%;
+    margin: 0 0 -5px 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  #content {
+    min-height: inherit;
+  }
+  #bodice .nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 15px;
+    -webkit-transform: translate(-100%, 0px);
+    -moz-transform: translate(-100%, 0px);
+    -o-transform: translate(-100%, 0px);
+    -ms-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: 0.15s ease;
+    background-color: #00649D;
+    /*-moz-box-shadow: inset -10px 0 10px -10px #000000;
+	-webkit-box-shadow: inset -10px 0 10px -10px #000000;
+	box-shadow: inset -10px 0 10px -10px #000000;*/
+    background-color: rgba(150, 0, 25, 1);
+    /* JBS branding color */
+  }
+  #mobile-nav.active {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  #wrapper {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: 0.15s ease;
+  }
+  #wrapper.active {
+    -webkit-transform: translate(100%, 0px);
+    -moz-transform: translate(100%, 0px);
+    -o-transform: translate(100%, 0px);
+    -ms-transform: translate(100%, 0px);
+    transform: translate(100%, 0px);
+  }
+  .menu-link {
+    display: block;
+    position: fixed;
+    z-index: 9001;
+    padding: 10px 5px;
+    font-size: 30px;
+    color: #fff !important;
+    background-color: #093E60;
+    background-color: rgb(150, 0, 25);
+    /* JBS branding color */
+    text-align: center;
+    font-family: Lato;
+    font-size: 19px;
+    letter-spacing: 2px;
+    width: 100%;
+    border-bottom: solid 2px #fff;
+    -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+  }
+  .menu-link:hover {
+    text-decoration: none;
+  }
+}
+
+/* Added Styling */
+
+
+/*
+.moduleVideo {
+	width: 100%;
+	clear: both;
+}
+
+.moduleDescription {
+	width: 100%;
+	clear: both;
+	margin-top: 0.2em;
+	background: #0f0;
+}*/
+
+
+/* End Tablet Styling */
+
+
+/* Begin Mobile Styling */
+
+@media screen and (max-width: 768px) {
+  #content {
+    padding: 1em;
+  }
+  h1 {
+    margin-left: -.5em;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  #header {
+    line-height: 0;
+  }
+  #subhead a {
+    line-height: 100%;
+    margin: 6px 10px 10px;
+    text-align: center;
+  }
+  /* Responsive Vimeo Elements */
+  /* Full-Width Videos */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* End Full-Width Videos */
+  /* Module Videos */
+  .moduleVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 2em;
+    /* sets vertical spacing for mobile views */
+  }
+  .moduleVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* End Module Videos */
+  /* End Responsive Vimeo Elements */
+  .moduleElement {}
+  .moduleVideo {
+    width: 100%;
+    clear: both;
+  }
+  .moduleDescription {
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin-top: 0.2em;
+    overflow: visible;
+  }
+  /* New Footer Restyling */
+  #footerLeft {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    /*background: rgba(0,0,255,0.2);*/
+  }
+  #footerRight {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    /*background: rgba(0,255,0,0.2);*/
+    /*margin-top: -10px;*/
+  }
+  /* End New Footer Restyling */
