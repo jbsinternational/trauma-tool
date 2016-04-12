@@ -1,0 +1,92 @@
+/* CSS Document */
+
+body {
+	margin-top: 20;
+	background-color: #CCCCCC;
+	list-style-image:url(http://www.gucchdgeorgetown.net/test/images/bullet_arrow.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #333333;
+	}
+
+a:link {
+	color: #3366CC;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #3366CC;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #FF9900;
+	text-decoration: underline;
+	}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+	
+td   
+   { font-family: Arial, Helvetica, sans-serif; 
+font-size: 10pt; 
+   } 
+
+	
+UL LI    { font-size: 10pt 
+margin: .6em 0;
+margin-left: -20px;          
+}    
+ 
+UL UL LI { font-size: 10pt 
+} 
+
+h1 { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  color: #0000FF;
+  }
+
+h2 { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17pt;
+  color: #003665;
+  line-height: 1ex;
+  }
+  
+h3 { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  color: #003665;
+  line-height: 2ex;
+  }
+  
+h4 { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  color: #003665;
+  line-height: 2ex;
+  }
+  
+h5 { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  color: #003665;
+  line-height: 2ex;
+  }
+  
+h6 {
+  font-family: Arial, Helvetica, san-serif;
+  font-size: 11pt;
+  color: #003665;
+  line-height: 2ex;
+  }
+  
+h7 {
+  font-family: Arial, Helvetica, san-serif;
+  font-size: 11pt;
+  color: #003665;
+  line-height: 1.5ex;
+  }
